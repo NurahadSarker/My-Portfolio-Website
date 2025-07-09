@@ -16,7 +16,7 @@ body{
 
 /*nav style*/
 
-.logo{
+.secondary-color{
     color: rgb(255, 255, 255);
 }
 
@@ -43,5 +43,40 @@ li a {
 
 nav ul {
     display: flex;
+}
+
+.secondary-color-02{
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.header-h1-02{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.primary-button{
+    background-color: rgba(39, 174, 96, 1);
+    padding: 12px 27px;
+    border: none;
+    margin-right: 5px;
+}
+
+button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.secondary-button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(39, 174, 95, 0);
+    padding: 12px 27px;
+    border: rgb(255, 255, 255) solid 1px;
+}
+
+.hero-section{
+    margin-top: 395px;
 }
 
