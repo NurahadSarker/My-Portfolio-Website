@@ -146,5 +146,45 @@ button a{
 .about-items{
     display: flex;
     justify-content: space-around;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
+.about-item-shape{
+    margin-bottom: 15px;
+}
+
+.technology-title {
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.technology-description{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgba(83, 83, 83, 1);
+}
+
+.technologys{
+    margin: 100px 125px 100px 125px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px;
+}
+
+.technology{
+    height: 240px;
+    width: 350px;
+    background-color: rgba(33, 33, 33, 1);
+    /* padding: 35px 50px 35px 50px; */
+    border-bottom: 5px solid rgba(39, 174, 96, 1);
+}
+
+.technology img{
+    margin: 35px 50px 0px 50px;
+}
+
+.technology h1{
+    margin: 30px 50px 30px 50px;
+}
